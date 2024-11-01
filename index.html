@@ -1,0 +1,309 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Quicksand:wght@300..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Quicksand:wght@300..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <title>havana cigar</title>
+    <style>	
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #F5F5DC;
+}
+
+
+header {
+  position: sticky;
+  top: 0;
+  min-height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid black;
+  width: 100%;
+  margin-bottom: 50px;
+  background:  #D2B48C;
+}
+
+
+h1 {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  gap: 15px; 
+  font-size: 2rem;   
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #FFFDD0;
+}
+
+nav > ul {
+  width: 35vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: #fffff0;
+  text-transform: uppercase;
+  flex-wrap: wrap;
+}
+
+ul > li {
+  padding: 10px;
+  list-style-type: none;
+}
+
+header a {
+  color: #fffdd0;
+}
+header a:hover {
+  color: #fff;
+}
+#header-img {
+  object-fit: contain;
+  width: auto;
+  height: 3em;   
+}
+
+#main-section {
+  scroll-margin-top: 100px;
+  text-align: center;
+  background: #FFFDD0;
+  margin-top: 10px 15px 10px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid black;
+  border-radius: 5px;
+}
+
+#main-section > div, #main-section > div > h3 {
+  margin-bottom: 15px;
+}
+
+#main-section h3 {
+  text-transform: uppercase;
+  color: #7b7b29;
+}
+
+#main-section p {
+  font-family: "rubik", sans-serif;
+  font-size: 1.2rem;
+}
+
+form {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.grid-section {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin-top: 20px;
+}
+
+.cigar-div {
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.grid-section img {
+  width: 100%;
+  height: auto;
+  background-color: #f5f5dc;
+}
+
+form {
+  margin-top: 50px;
+  background: #f5f5dc;
+}
+
+fieldset {
+  text-align: center;
+  border-style: dotted;
+  border-color: #7b7b29;
+}
+
+legend, fieldset > input {
+  margin-bottom: 10px;
+}
+
+legend {
+  font-family: "sans-serif";
+  text-transform: capitalize;
+}
+
+.grid-section h4 {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: 800;
+}
+
+.price {
+  color: red;
+}
+
+.parentheses {
+  color: #4B4C33;
+}
+
+.cigar-div h2 {
+  font-size: 1.5rem;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+
+#contact-section {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.call {
+  font-weight: bold;
+}
+
+.number {
+  margin-left: 10px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.adress {
+  margin-top: 20px;
+  border: 1px solid #cccccc;
+}
+
+.adress h5 {
+  margin: 5px 0;
+}
+
+.adress iframe {
+  width: 100%;
+  height: 300px;
+  border: 0;
+  margin-top: 10px;
+}
+
+@media (max-width: 767px) {
+  nav > ul {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+
+  .grid-section img {
+  	width: 80%;
+  }
+
+  #main-section > div {
+  	padding: 10px;
+  }
+}
+    </style>
+  </head>
+  <body>
+    <main>
+      <header id="header">
+        <h1><img id="header-img" src="https://files.oaiusercontent.com/file-UVhx8CNaZrTo6gVYQVBjIMwP?se=2024-10-31T13%3A51%3A11Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Da220ad5a-fb13-42ec-81f5-a2f6c725f19f.webp&sig=APQE8GsGHDbqbdZbz2DzfV%2BMjynwkEFWgHmomKm3Kps%3D" alt="cigar"></img>havana <br> cigar</h1>
+        <nav id="nav-bar">
+          <ul>
+            <a href="#main-section" class="nav-link"><li>main</li></a>
+            <a href="#prices-section" class="nav-link"><li>prices</li></a>
+            <a href="#contact-section" class="nav-link"><li>contact</li></a>
+            <a href="#registration-section" class="nav-link"><li>registration</li></a>
+          </ul>
+        </nav>
+      </header>
+      <section id="main-section" class="section-grid">
+        <div>
+          <h3>premium quality</h3>
+          <p>Our premium cigars begin with the finest tobacco, hand-selected from Cuba and Nicaragua. Each leaf is chosen for its quality, than aged for years to bring out reach and layered flavors. This aging process ensures a smooth, mellow smoke that only best cigars can deliver</p>
+        </div>
+        <div>
+          <h3>free shipping</h3>
+          <p>At <strong>Havana Cigar</strong>, we want your experience to be as smooth as our cigars, That's why we are excited to offer free shipping on all premium orders, whether you are chosing your favourite orders or trying a new limited edition, we'll deliver them straight to your door without any extra cost</p>
+        </div>
+        <div>
+          <h3>quality assurance</h3>
+          <p>Each order is expertly packaged to maintain the quality and integrity of the cigars. From the moment they leave our hands to when they arrive at yours, we ensure your cigars are protected and kept in optimal conditions.<p>
+        </div>
+      </section>
+      <section id="prices-section" class="grid-section">
+        <div class="cigar-div">
+          <img src="https://i.imgur.com/Eq2i1HJ.png" alt="trinidad-cigar">
+          <h2>trinidad shorts <br><span class="parentheses">(10 packs)</span></h2>
+          <h4>price: <span class="price">$15</span></h4>
+          <h4>origin: <span>cuba</span></h4>
+          <h4>size: <span>shorts (3 1/2 x 26)</span></h4>
+          <h4>strength: <span>medium</span></h4>
+        </div>
+        <div class="cigar-div">
+          <img src="https://i.imgur.com/phuwHXw.png" src="jose-l-piedra-cigar">
+          <h2>trinidad vigia <br><span class="parentheses">(3 packs)</span></h2>
+          <h4>price: <span class="price">$155</span></h4>
+          <h4>origin: <span>cuba</span></h4>
+          <h4>size: <span>vigia (4 3/8 x 54)</span><h4>
+          <h4>strength: <span>full</span></h4>
+        </div>
+        <div class="cigar-div">
+          <img src="https://i.imgur.com/JctrNV7.png" alt="cohiba-maduro-cigar">
+          <h2>cohiba maduro <br><span class="parentheses">(10 packs)</span></h2>
+          <h4>price: <span class="price">$950</span></h4>
+          <h4>origin: <span>cuba</span></h4>
+          <h4>size: <span>magicos (4 1/2 x 52)</span></h4>
+          <h4>strength: <span>medium to full</span></h4>
+        </div>
+      </section>
+      <section id="registration-section">
+        <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+          <fieldset>
+          <legend>join us to get full access to our premium orders and other interesting features</legend>
+          <label for="email">Email</label>
+          <input id="email" type="email" name="email" placeholder="HavanaCigar@gmail.com">
+          <input id="submit" type="submit" value="Join Now"></input>
+          </fieldset>
+        </form>
+      </section>
+      <section id="contact-section">
+        <div class="contact">
+          <span class="call">Call</span> <span class="number">+995 557701368</span>
+          <span class="call">Text Us</span> <span class="number">+995 557701368</span>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://twitter.com/">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://instagram.com/">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+            <div class="adress">
+              <h5>our main branch</h5>
+              <h5>Tbilisi, Robakidze avanue 22b</h5>
+              <iframe id="video"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2976.159853490395!2d44.769335374662454!3d41.76021118613643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40447279cf9d253b%3A0x64f19fd36c9f93ea!2s23a%2F23b%20Grigol%20Robakidze%20Ave%2C%20T&#39;bilisi%2C%20Georgia!5e0!3m2!1sen!2sus!4v1730380775024!5m2!1sen!2sus"></iframe>
+            </div>
+        </div>
+          </section>
+    </main>
+  </body>
+</html>
